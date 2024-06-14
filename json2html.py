@@ -72,7 +72,6 @@ class JSON2html:
         return converted
 
     def convert_json_node(self, json_input):
-        # todo: edit the docstring once you figure out what to do with non-dict JSONs, if they exist
         """
             Dispatch JSON input according to the outermost type and process it
             to generate the super awesome HTML format.
